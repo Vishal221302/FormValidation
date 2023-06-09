@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+label {
+    margin: 5px 0px;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to left, #74ebd5, #9face6);
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    color: #040404;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input,
+textarea {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    /* border-bottom: 1px solid; */
+}
+
+
+.input-control input:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control.success textarea {
+    border-color: #09c372;
+}
+
+.input-control.error textarea {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+    margin: 10px 0px;
+
+}
